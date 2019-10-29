@@ -31,6 +31,16 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
 
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated.announcement = Anuncios
+master.menu.authenticated.announcement.list = Lista de anuncios
+
+# master.menu.anonymous #######################################################
+master.menu.anonymous.announcement = Anuncios
+master.menu.anonymous.announcement.list = Lista de anuncios
+
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
