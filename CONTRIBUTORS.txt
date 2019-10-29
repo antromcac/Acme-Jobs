@@ -8,4 +8,10 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-- Rafael Corchuelo (corchu@us.es) 
+Los contribuidores para este proyecto son:
+
+Antonio Vidal Perez      (antvidper@alum.us.es)
+Antonio Romero CÃ¡ceres  (antromcac@alum.us.es)
+Pablo Franco Sanchez     (pabfrasan@alum.us.es)
+Thibaut Lopez            (thiloparn@alum.us.es)
+Gabriel Gutierrez Prieto (gabgutpri@alum.us.es)
