@@ -35,6 +35,8 @@ master.menu.anonymous.favourite-link = Enlace favorito
 
 master.menu.authenticated.announcement = Anuncios
 master.menu.authenticated.announcement.list = Lista de anuncios
+master.menu.authenticated.requests = Solicitud
+master.menu.authenticated.requests.list = Lista de solicitud
 
 # master.menu.anonymous #######################################################
 master.menu.anonymous.announcement = Anuncios

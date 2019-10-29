@@ -40,5 +40,32 @@
 		<property name="text" value="This is a very old announcement" />
 
 	</bean>
+	
+	<bean id="requests01" class="acme.entities.requestss.Requests">
+		<property name="title" value="Request 01"/>
+		<property name="moment" value="2019/06/10 10:35"/>
+		<property name="deadline" value="2019/06/30 10:35"/>
+		<property name="text" value="This is the description of a request"/>
+		<property name="reward" value="1000.00 EUR"/>
+		<property name="ticker" value="RABCD-12345"/>
+	</bean>
+	
+	<bean id="requests02" class="acme.entities.requestss.Requests">
+		<property name="title" value="Request 02"/>
+		<property name="moment" value="2018/07/10 10:35"/>
+		<property name="deadline" value="2018/07/29 10:35"/>
+		<property name="text" value="This is the description of a request"/>
+		<property name="reward" value="2000€"/>
+		<property name="ticker" value="RABCD-12345"/>
+	</bean>
+	
+	<bean id="requests03" class="acme.entities.requestss.Requests">
+		<property name="title" value="Request 03"/>
+		<property name="moment" value="2019/01/15 10:35"/>
+		<property name="deadline" value="2019/01/17 12:00"/>
+		<property name="text" value="This is the description of a request"/>
+		<property name="reward" value="10000€"/>
+		<property name="ticker" value="REBCD-62345"/>
+	</bean>
 
 </beans>

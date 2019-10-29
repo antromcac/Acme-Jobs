@@ -312,4 +312,22 @@ has v</panel_attributes>
 +text: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>49</x>
+      <y>350</y>
+      <w>252</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>Requests
+--
++ title: String {NotBlank}
++ moment: Date {Temporal(TIMESTAMP),Past}
++ deadline: Date {Temporal(TIMESTAMP)}
++ text: String {NotBlank}
++ reward: Money {NotBlank}
++ ticker: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
