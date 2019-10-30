@@ -27,7 +27,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class CompanyRecords extends DomainEntity {
+public class CompanyRecord extends DomainEntity {
 
 	// Serialisation identifier -----------------------------------------------
 

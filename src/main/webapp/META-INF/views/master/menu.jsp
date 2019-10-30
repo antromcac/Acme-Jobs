@@ -23,16 +23,15 @@
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
 		</acme:menu-option>
 		
+		
 		<acme:menu-option code="master.menu.anonymous.announcement" access="isAnonymous()" >
 			<acme:menu-suboption code="master.menu.anonymous.announcement.list" action="/anonymous/announcement/list"/>
 		</acme:menu-option>
 		
-		<acme:menu-option code="master.menu.anonymous.companyRecords" access="isAnonymous()" >
-			<acme:menu-suboption code="master.menu.anonymous.companyRecords.list" action="/anonymous/company-records/list"/>
-		</acme:menu-option>
-		
+			
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.company-record.list" action="/anonymous/company-record/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

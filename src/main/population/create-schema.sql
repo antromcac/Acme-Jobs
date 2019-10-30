@@ -30,7 +30,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `company_records` (
+    create table `company_record` (
        `id` integer not null,
         `version` integer not null,
         `ceo` varchar(255),
