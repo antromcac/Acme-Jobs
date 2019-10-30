@@ -10,6 +10,22 @@
 
 #COMPANY RECORDS LIST
 
+anonymous.companyRecords.list.label.name = name
+anonymous.companyRecords.list.label.sector =sector
+anonymous.companyRecords.list.label.description =description
+anonymous.companyRecords.list.label.phone = phone
+anonymous.companyRecords.list.label.numberStars =numberStars
+	
 
 #COMPANY RECORDS FORM
 
+anonymous.companyRecords.form.label.name = Name
+anonymous.companyRecords.form.label.sector = Sector
+anonymous.companyRecords.form.label.ceo = Ceo
+anonymous.companyRecords.form.label.description = Description
+anonymous.companyRecords.form.label.webSite = WebSite
+anonymous.companyRecords.form.label.phone = Phone
+anonymous.companyRecords.form.label.email = Email
+anonymous.companyRecords.form.label.isIncorporated = Is incorporated
+anonymous.companyRecords.form.label.numberStars = Number stars
+anonymous.companyRecords.form.button.return = Return

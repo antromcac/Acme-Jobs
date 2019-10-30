@@ -17,5 +17,14 @@
 
 <acme:form readonly="true">
 
-	<acme:form-return code="anonymous.company-records.form.button.return"/>
+	<acme:form-textbox code="anonymous.companyRecords.form.label.name" path="name"/>
+	<acme:form-textbox code="anonymous.companyRecords.form.label.sector" path="sector"/>
+	<acme:form-textbox code="anonymous.companyRecords.form.label.ceo" path="ceo"/>
+	<acme:form-textbox code="anonymous.companyRecords.form.label.description" path="description"/>
+	<acme:form-textbox code="anonymous.companyRecords.form.label.webSite" path="webSite"/>
+	<acme:form-textbox code="anonymous.companyRecords.form.label.phone" path="phone"/>
+	<acme:form-url code="anonymous.companyRecords.form.label.email" path="email"/>
+	<acme:form-checkbox code="anonymous.companyRecords.form.label.isIncorporated" path="isIncorporated"/>
+	<acme:form-integer code="anonymous.companyRecords.form.label.numberStars" path="numberStars"/>
+	<acme:form-return code="anonymous.companyRecords.form.button.return"/>
 </acme:form>

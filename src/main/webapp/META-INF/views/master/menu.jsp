@@ -27,6 +27,9 @@
 			<acme:menu-suboption code="master.menu.anonymous.announcement.list" action="/anonymous/announcement/list"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.anonymous.companyRecords" access="isAnonymous()" >
+			<acme:menu-suboption code="master.menu.anonymous.companyRecords.list" action="/anonymous/company-records/list"/>
+		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>

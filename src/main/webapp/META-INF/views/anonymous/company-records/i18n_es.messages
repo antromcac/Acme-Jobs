@@ -10,5 +10,21 @@
 
 #COMPANY RECORDS LIST
 
+anonymous.companyRecords.list.label.name = Nombre
+anonymous.companyRecords.list.label.sector = Sector
+anonymous.companyRecords.list.label.description = Descripcion
+anonymous.companyRecords.list.label.phone = Telefono
+anonymous.companyRecords.list.label.numberStars = Numero de estrellas
 
 #COMPANY RECORDS FORM
+
+anonymous.companyRecords.form.label.name = Nombre
+anonymous.companyRecords.form.label.sector = Sector
+anonymous.companyRecords.form.label.ceo = Ceo
+anonymous.companyRecords.form.label.description = Descripcion
+anonymous.companyRecords.form.label.webSite = Pagina web
+anonymous.companyRecords.form.label.phone = Telefono
+anonymous.companyRecords.form.label.email = Email
+anonymous.companyRecords.form.label.isIncorporated = Esta incorporado
+anonymous.companyRecords.form.label.numberStars = Numero de estrellas
+anonymous.companyRecords.form.button.return = Volver

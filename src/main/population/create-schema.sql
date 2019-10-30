@@ -33,13 +33,13 @@
     create table `company_records` (
        `id` integer not null,
         `version` integer not null,
+        `ceo` varchar(255),
         `description` varchar(255),
         `email` varchar(255),
         `is_incorporated` bit,
-        `nameceo` varchar(255),
-        `name_company` varchar(255),
-        `number_phone` varchar(255),
+        `name` varchar(255),
         `number_stars` integer,
+        `phone` varchar(255),
         `sector` varchar(255),
         `web_site` varchar(255),
         primary key (`id`)

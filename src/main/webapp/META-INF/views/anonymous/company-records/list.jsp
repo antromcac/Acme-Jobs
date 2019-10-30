@@ -17,4 +17,11 @@
 
 <acme:list>
 
+	<acme:list-column code="anonymous.companyRecords.list.label.name" path="name"/>
+	<acme:list-column code="anonymous.companyRecords.list.label.sector" path="sector"/>
+	<acme:list-column code="anonymous.companyRecords.list.label.description" path="description"/>
+	<acme:list-column code="anonymous.companyRecords.list.label.phone" path="phone"/>
+	<acme:list-column code="anonymous.companyRecords.list.label.numberStars" path="numberStars"/>
+	
+
 </acme:list>

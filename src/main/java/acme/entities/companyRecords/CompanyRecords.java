@@ -36,13 +36,13 @@ public class CompanyRecords extends DomainEntity {
 	// Attributes -------------------------------------------------------------
 
 	@NotBlank
-	private String				nameCompany;
+	private String				name;
 
 	@NotBlank
 	private String				sector;
 
 	@NotBlank
-	private String				nameCEO;
+	private String				ceo;
 
 	@NotBlank
 	private String				description;
@@ -51,7 +51,7 @@ public class CompanyRecords extends DomainEntity {
 	private String				webSite;
 
 	@Pattern(regexp = "^([+][1-9]\\d{0,3}[ ])?[(][1-9]\\d{0,4}[)][ ]\\d{6,10}$")
-	private String				numberPhone;
+	private String				phone;
 
 	@Email
 	private String				email;
