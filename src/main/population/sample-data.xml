@@ -46,35 +46,35 @@
 		<property name="sector" value="Sector 1"/>
 		<property name="ceo" value="CEO 1"/>
 		<property name="description" value="Description 1"/>
-		<property name="webSite" value="https://google.com/"/>
-		<property name="phone" value="(9999) 999999"/>
+		<property name="webSite" value="https://gruposolutia.com/"/>
+		<property name="phone" value="(9557) 922051"/>
 		<property name="email" value="romangutierrez@hotmail.com"/>
-		<property name="isIncorporated" value="true" />
+		<property name="isIncorporated" value="false" />
 		<property name="numberStars" value="0"/>
 	
 	</bean>
 	
 	<bean id="companyRecord02" class="acme.entities.companyRecords.CompanyRecord">
-		<property name="name" value="Acme"/>
+		<property name="name" value="Alveys Chocolates Inc."/>
 		<property name="sector" value="Sector 2"/>
 		<property name="ceo" value="CEO 2"/>
 		<property name="description" value="Description 2"/>
-		<property name="webSite" value="https://google.com/"/>
-		<property name="phone" value="+9 (9999) 999999"/>
+		<property name="webSite" value="https://www.alveyschocolates.com/"/>
+		<property name="phone" value="+34 (6035) 527401"/>
 		<property name="email" value="antoniovidaldimision@gmail.com"/>
 		<property name="isIncorporated" value="true" />
 		<property name="numberStars" value="2"/>
 	</bean>
   
   <bean id="companyRecord03" class="acme.entities.companyRecords.CompanyRecord">
-		<property name="name" value="Acme-Jobs"/>
+		<property name="name" value="Acme-Jobs, LLC"/>
 		<property name="sector" value="Sector 3"/>
 		<property name="ceo" value="CEO 3"/>
 		<property name="description" value="Description 3"/>
 		<property name="webSite" value="https://google.com/"/>
-		<property name="phone" value="+999 (9999) 999999"/>
+		<property name="phone" value="+999 (4387) 4576329871"/>
 		<property name="email" value="antonioromerocaceres@gmail.com"/>
-		<property name="isIncorporated" value="true" />
+		<property name="isIncorporated" value="false" />
 		<property name="numberStars" value="5"/>
 	</bean>
   
