@@ -15,6 +15,7 @@ package acme.entities.companyRecords;
 import javax.persistence.Entity;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Range;
@@ -47,17 +48,20 @@ public class CompanyRecord extends DomainEntity {
 	@NotBlank
 	private String				description;
 
+	@NotBlank
 	@URL
 	private String				webSite;
 
 	@Pattern(regexp = "^([+][1-9]\\d{0,3}[ ])?[(][1-9]\\d{0,4}[)][ ]\\d{6,10}$")
 	private String				phone;
 
+	@NotBlank
 	@Email
 	private String				email;
 
 	private Boolean				isIncorporated;
 
+	@NotNull
 	@Range(min = 0, max = 5)
 	private Integer				numberStars;
 

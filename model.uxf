@@ -317,8 +317,8 @@ has v</panel_attributes>
     <coordinates>
       <x>196</x>
       <y>574</y>
-      <w>217</w>
-      <h>77</h>
+      <w>287</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>companyRecord
 --
@@ -326,11 +326,11 @@ has v</panel_attributes>
 + sector: String {NotBlank}
 + ceo: String {NotBlank}
 + description: String {NotBlank}
-+ webSite: String {URL}
++ webSite: String {NotBlank,URL}
 + phone: String {Pattern}
-+ email: String {Email}
-+ isIncorporated: Boolean {}
-+ numberStars: Integer {Range(min=0,max=5)}</panel_attributes>
++ email: String {NotBlank,Email}
++ isIncorporated: Boolean
++ numberStars: Integer {NotNull, Range(min=0,max=5)}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
