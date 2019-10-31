@@ -2,6 +2,7 @@
 package acme.features.anonymous.companyRecord;
 
 import java.util.Collection;
+import java.util.HashSet;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -46,6 +47,22 @@ public class AnonymousCompanyRecordListService implements AbstractListService<An
 		Collection<CompanyRecord> result;
 
 		result = this.repository.findManyAll();
+
+		Collection<CompanyRecord> res = new HashSet<>();
+
+		for (CompanyRecord cr : result) {
+
+			if (cr.getIsIncorporated() == true) {
+
+				cr.setName(cr.getName() + " Inc.");
+
+			} else {
+				cr.setName(cr.getName() + " LLC");
+
+			}
+
+			res.add(cr);
+		}
 
 		return result;
 	}

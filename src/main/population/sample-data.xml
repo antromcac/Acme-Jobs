@@ -55,7 +55,7 @@
 	</bean>
 	
 	<bean id="companyRecord02" class="acme.entities.companyRecords.CompanyRecord">
-		<property name="name" value="Alveys Chocolates Inc."/>
+		<property name="name" value="Alveys Chocolates"/>
 		<property name="sector" value="Sector 2"/>
 		<property name="ceo" value="CEO 2"/>
 		<property name="description" value="Description 2"/>
@@ -67,7 +67,7 @@
 	</bean>
   
   <bean id="companyRecord03" class="acme.entities.companyRecords.CompanyRecord">
-		<property name="name" value="Acme-Jobs, LLC"/>
+		<property name="name" value="Acme-Jobs"/>
 		<property name="sector" value="Sector 3"/>
 		<property name="ceo" value="CEO 3"/>
 		<property name="description" value="Description 3"/>
@@ -80,3 +80,4 @@
   
 
 </beans>
+
