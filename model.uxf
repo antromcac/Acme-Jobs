@@ -326,7 +326,7 @@ has v</panel_attributes>
 + moment: Date {Temporal(TIMESTAMP),Past}
 + deadline: Date {Temporal(TIMESTAMP)}
 + text: String {NotBlank}
-+ reward: Money {NotBlank}
++ reward: Money {NotNull}
 + ticker: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>

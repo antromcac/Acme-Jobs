@@ -3,9 +3,11 @@ package acme.entities.requestss;
 
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
@@ -35,12 +37,15 @@ public class Requests extends DomainEntity {
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date				deadline;
 
+	@NotBlank
 	private String				text;
 
 	@NotNull
+	@Min(0)
 	private Money				reward;
 
 	@NotBlank
 	@Pattern(regexp = "^R[a-zA-Z]{4}-[0-9]{5}$")
+	@Column(unique = true)
 	private String				ticker;
 }
