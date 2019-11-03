@@ -325,10 +325,10 @@ has v</panel_attributes>
 + title: String{NotBlank}
 + moment: Date{Temporal(TIMESTAMP),Past}
 + text: String{NotBlank}
-+ deadline: Date{Temporal(TIMESTAMP), Fuure}
-+ maxMoney: Money{NotBlank}
-+ minMoney: Money{NotBlank}
-+ ticker: String{NotBlank}
++ deadline: Date{Temporal(TIMESTAMP), Future}
++ maxMoney: Money{NotNull}
++ minMoney: Money{NotNull}
++ ticker: String{NotBlank, Unique, Pattern}
 </panel_attributes>
     <additional_attributes/>
   </element>
