@@ -35,6 +35,9 @@ master.menu.anonymous.favourite-link = Enlace favorito
 
 master.menu.authenticated.announcement = Anuncios
 master.menu.authenticated.announcement.list = Lista de anuncios
+master.menu.authenticated.challenge = Desafios
+master.menu.authenticated.challenge.list = Lista de desafios
+
 
 # master.menu.anonymous #######################################################
 master.menu.anonymous.announcement = Anuncios

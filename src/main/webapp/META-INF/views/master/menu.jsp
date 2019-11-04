@@ -23,6 +23,10 @@
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.authenticated.challenge" access="isAuthenticated()" >
+			<acme:menu-suboption code="master.menu.authenticated.challenge.list" action="/authenticated/challenge/list"/>
+		</acme:menu-option>
+		
 		<acme:menu-option code="master.menu.anonymous.announcement" access="isAnonymous()" >
 			<acme:menu-suboption code="master.menu.anonymous.announcement.list" action="/anonymous/announcement/list"/>
 		</acme:menu-option>
