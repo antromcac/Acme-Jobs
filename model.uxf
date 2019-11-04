@@ -315,25 +315,10 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-
-      <x>49</x>
-      <y>350</y>
-      <w>252</w>
-      <h>98</h>
-    </coordinates>
-    <panel_attributes>Requests
---
-+ title: String {NotBlank}
-+ moment: Date {Temporal(TIMESTAMP),Past}
-+ deadline: Date {Temporal(TIMESTAMP)}
-+ text: String {NotBlank}
-+ reward: Money {NotNull}
-+ ticker: String {NotBlank}</panel_attributes>
-
-      <x>560</x>
-      <y>456</y>
-      <w>264</w>
-      <h>128</h>
+      <x>544</x>
+      <y>552</y>
+      <w>280</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>Offer
 --
@@ -344,9 +329,25 @@ has v</panel_attributes>
 + maxMoney: Money{NotNull,Valid}
 + minMoney: Money{NotNull,Valid}
 / rango: String
-+ ticker: String{NotBlank, Unique, Pattern}
-</panel_attributes>
-
++ ticker: String{NotBlank, Unique, Pattern}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>536</x>
+      <y>424</y>
+      <w>320</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Request
+--
++ title: String {NotBlank}
++ moment: Date {Temporal(TIMESTAMP),Past}
++ deadline: Date {Temporal(TIMESTAMP)}
++ text: String {NotBlank}
++ reward: Money {NotNull, Valid}
++ ticker: String {NotBlank, Unique, Pattern}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
