@@ -35,6 +35,10 @@ master.menu.anonymous.favourite-link = Favourite link
 
 master.menu.authenticated.announcement = Announcements
 master.menu.authenticated.announcement.list = Announcements lists
+
+master.menu.authenticated.requests = Requests
+master.menu.authenticated.requests.list = Requests lists
+
 master.menu.authenticated.offer = Offers
 master.menu.authenticated.offer.list = Offers lists
 

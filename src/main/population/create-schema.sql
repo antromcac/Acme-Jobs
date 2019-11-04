@@ -64,6 +64,19 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `requests` (
+       `id` integer not null,
+        `version` integer not null,
+        `deadline` datetime(6),
+        `moment` datetime(6),
+        `reward_amount` double precision,
+        `reward_currency` varchar(255),
+        `text` varchar(255),
+        `ticker` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `user_account` (
        `id` integer not null,
         `version` integer not null,
@@ -82,8 +95,13 @@
 
     insert into `hibernate_sequence` values ( 1 );
 
+
+    alter table `requests` 
+       add constraint UK_5v1h0kdr8vcps4i9e55k5gnc8 unique (`ticker`);
+
     alter table `offer` 
        add constraint UK_iex7e8fs0fh89yxpcnm1orjkm unique (`ticker`);
+
 
     alter table `user_account` 
        add constraint UK_castjbvpeeus0r8lbpehiu0e4 unique (`username`);

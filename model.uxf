@@ -315,6 +315,21 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+
+      <x>49</x>
+      <y>350</y>
+      <w>252</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>Requests
+--
++ title: String {NotBlank}
++ moment: Date {Temporal(TIMESTAMP),Past}
++ deadline: Date {Temporal(TIMESTAMP)}
++ text: String {NotBlank}
++ reward: Money {NotNull}
++ ticker: String {NotBlank}</panel_attributes>
+
       <x>560</x>
       <y>456</y>
       <w>264</w>
@@ -331,6 +346,7 @@ has v</panel_attributes>
 / rango: String
 + ticker: String{NotBlank, Unique, Pattern}
 </panel_attributes>
+
     <additional_attributes/>
   </element>
 </diagram>
