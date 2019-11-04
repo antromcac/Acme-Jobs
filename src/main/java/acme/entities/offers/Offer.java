@@ -52,11 +52,18 @@ public class Offer extends DomainEntity {
 	private Money				minMoney;
 
 	@NotBlank
-	@Pattern(regexp = "^R[a-zA-Z]{4}-[0-9]{5}$")
+	@Pattern(regexp = "^O[a-zA-Z]{4}-[0-9]{5}$")
 	@Column(unique = true)
 	private String				ticker;
 	// Derived attributes -----------------------------------------------------
 
+	private String				rango;
+
+
+	public String getRango() {
+		this.rango = this.minMoney.toString() + " - " + this.maxMoney;
+		return this.rango;
+	}
 	// Relationships ----------------------------------------------------------
 
 }
