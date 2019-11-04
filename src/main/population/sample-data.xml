@@ -62,6 +62,11 @@
 		<property name="ticker" value="OFGHI-67891" />
 	</bean>
 	
-
-
+	 	<!--Spam --> 
+	<bean id="customisationParameter01" class="acme.entities.customisationParameters.CustomisationParameter">
+		<property name="spamWords" value="sex"/>
+		
+		<property name="threshold" value="1.00" />
+		
+	</bean>
 </beans>

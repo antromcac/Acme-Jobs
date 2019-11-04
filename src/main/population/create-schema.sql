@@ -39,6 +39,14 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `customisation_parameter` (
+       `id` integer not null,
+        `version` integer not null,
+        `spam_words` varchar(255),
+        `threshold` double precision,
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `offer` (
        `id` integer not null,
         `version` integer not null,

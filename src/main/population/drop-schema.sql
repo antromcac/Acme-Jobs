@@ -29,6 +29,8 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `customisation_parameter`;
+
     drop table if exists `offer`;
 
     drop table if exists `provider`;
