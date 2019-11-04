@@ -35,10 +35,14 @@ master.menu.anonymous.favourite-link = Enlace favorito
 
 master.menu.authenticated.announcement = Anuncios
 master.menu.authenticated.announcement.list = Lista de anuncios
+master.menu.authenticated.investorRecord = Registros de inversores
+master.menu.authenticated.investorRecord.list = Lista de registros de inversores
 
 # master.menu.anonymous #######################################################
 master.menu.anonymous.announcement = Anuncios
 master.menu.anonymous.announcement.list = Lista de anuncios
+master.menu.anonymous.investorRecord = Registros de inversores
+master.menu.anonymous.investorRecord.list = Lista de registros de inversores
 
 
 # master.menu.administrator ###################################################

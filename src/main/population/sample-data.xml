@@ -40,5 +40,29 @@
 		<property name="text" value="This is a very old announcement" />
 
 	</bean>
+	
+	<bean id="invRecord01" class="acme.entities.investorRecords.InvestorRecord">
+		<property name="name" value="Ozimandias" />
+		<property name="sector" value="Construction" />
+		<property name="invStatement" value="Currently active"/>
+		<property name="stars" value="4" />
+
+	</bean>
+
+	<bean id="invRecord02" class="acme.entities.investorRecords.InvestorRecord">
+		<property name="name" value="Lord Ainz" />
+		<property name="sector" value="World Domination" />
+		<property name="invStatement" value="Currently really really active"/>
+		<property name="stars" value="5" />
+
+	</bean>
+	
+	<bean id="invRecord03" class="acme.entities.investorRecords.InvestorRecord">
+		<property name="name" value="Prince Eugene" />
+		<property name="sector" value="Harbory" />
+		<property name="invStatement" value="First time investing"/>
+		<property name="stars"><null/></property>
+
+	</bean>
 
 </beans>

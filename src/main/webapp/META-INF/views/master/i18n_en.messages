@@ -35,10 +35,14 @@ master.menu.anonymous.favourite-link = Favourite link
 
 master.menu.authenticated.announcement = Announcements
 master.menu.authenticated.announcement.list = Announcements lists
+master.menu.authenticated.investorRecord = Investors records
+master.menu.authenticated.investorRecord.list = Investors records lists
 
 # master.menu.anonymous #######################################################
 master.menu.anonymous.announcement = Announcements
 master.menu.anonymous.announcement.list = Announcements lists
+master.menu.anonymous.investorRecord = Investors records
+master.menu.anonymous.investorRecord.list = Investors records lists
 
 # master.menu.administrator ###################################################
 

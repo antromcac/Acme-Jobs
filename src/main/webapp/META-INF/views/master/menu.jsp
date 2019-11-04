@@ -27,6 +27,14 @@
 			<acme:menu-suboption code="master.menu.anonymous.announcement.list" action="/anonymous/announcement/list"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.authenticated.investorRecord" access="isAuthenticated()" >
+			<acme:menu-suboption code="master.menu.authenticated.investorRecord.list" action="/authenticated/investorRecord/list"/>
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.anonymous.investorRecord" access="isAnonymous()" >
+			<acme:menu-suboption code="master.menu.anonymous.investorRecord.list" action="/anonymous/investorRecord/list"/>
+		</acme:menu-option>
+		
 		
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
