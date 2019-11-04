@@ -13,7 +13,7 @@ import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Administrator;
 
 @Controller
-@RequestMapping("/authenticated/customisation-parameter/")
+@RequestMapping("/administrator/customisation-parameter/")
 public class AuthenticatedCustomisationParameterController extends AbstractController<Administrator, CustomisationParameter> {
 
 	// Internal state ---------------------------------------------------------
