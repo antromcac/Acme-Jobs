@@ -45,6 +45,7 @@
 		
 		<acme:menu-option code="master.menu.anonymous.investor-record" access="isAnonymous()" >
 			<acme:menu-suboption code="master.menu.anonymous.investor-record.list" action="/anonymous/investor-record/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.investor-record.five-stars" action="/anonymous/investor-record/five-stars"/>
 		</acme:menu-option>
 		
 		

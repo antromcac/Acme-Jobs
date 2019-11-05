@@ -50,12 +50,14 @@ master.menu.authenticated.investor-record.list = Lista de registros de inversore
 
 
 
+
 # master.menu.anonymous #######################################################
 master.menu.anonymous.announcement = Anuncios
 master.menu.anonymous.announcement.list = Lista de anuncios
 
 master.menu.anonymous.investor-record = Registros de inversores
 master.menu.anonymous.investor-record.list = Lista de registros de inversores
+master.menu.anonymous.investor-record.five-stars = Mejor registro de inversor
 
 
 # master.menu.administrator ###################################################

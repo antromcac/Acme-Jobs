@@ -10,10 +10,10 @@ import acme.entities.investorRecords.InvestorRecord;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
-import acme.framework.services.AbstractListService;
+import acme.framework.services.AbstractShowService;
 
 @Service
-public class AnonymousInvestorRecordListService implements AbstractListService<Anonymous, InvestorRecord> {
+public class AnonymousInvestorRecordShowFiveStarsService implements AbstractShowService<Anonymous, InvestorRecord> {
 
 	// Internal state ---------------------------------------------------------
 
@@ -34,16 +34,17 @@ public class AnonymousInvestorRecordListService implements AbstractListService<A
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "name", "sector", "stars");//atributos del modelo al listado(los que apareceran en el listado)
+		request.unbind(entity, model, "name", "sector", "invStatement", "stars");
 	}
 
 	@Override
-	public Collection<InvestorRecord> findMany(final Request<InvestorRecord> request) {
+	public InvestorRecord findOne(final Request<InvestorRecord> request) {
 		assert request != null;
 
-		Collection<InvestorRecord> result;
+		Collection<InvestorRecord> list;
 
-		result = this.repository.findManyAll();
+		list = this.repository.findManyAll();
+		InvestorRecord result = list.stream().filter(x -> x.getStars() == 5).findFirst().get();
 
 		return result;
 	}
