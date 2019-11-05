@@ -55,6 +55,8 @@ master.menu.administrator.shutdown = Parar el sistema
 master.menu.administrator.announcement = Anuncios
 master.menu.administrator.announcement.list = Lista de anuncios
 
+master.menu.administrator.customisation-parameter = Parametros de customizacion
+
 # master.menu.provider ########################################################
 
 master.menu.provider = Proveedor
