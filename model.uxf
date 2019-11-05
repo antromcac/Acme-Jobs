@@ -315,7 +315,6 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-
       <x>544</x>
       <y>552</y>
       <w>280</w>
@@ -327,8 +326,8 @@ has v</panel_attributes>
 + moment: Date{Temporal(TIMESTAMP),Past}
 + text: String{NotBlank}
 + deadline: Date{Temporal(TIMESTAMP)}
-+ maxMoney: Money{NotNull,Valid}
-+ minMoney: Money{NotNull,Valid}
++ maxMoney: Money{NotNull}
++ minMoney: Money{NotNull}
 / rango: String
 + ticker: String{NotBlank, Unique, Pattern}</panel_attributes>
     <additional_attributes/>
@@ -347,24 +346,27 @@ has v</panel_attributes>
 + moment: Date {Temporal(TIMESTAMP),Past}
 + deadline: Date {Temporal(TIMESTAMP)}
 + text: String {NotBlank}
-+ reward: Money {NotNull, Valid}
++ reward: Money {NotNull}
 + ticker: String {NotBlank, Unique, Pattern}</panel_attributes>
-
     <additional_attributes/>
   </element>
- <element>
-  <x>539</x>
-      <y>448</y>
-      <w>231</w>
-      <h>91</h>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>224</x>
+      <y>384</y>
+      <w>295</w>
+      <h>115</h>
     </coordinates>
     <panel_attributes>Challenge
 --
 + title: String{NotBlank}
++ description: String{NotBlank}
 + deadline: Date{Temporal(TIMESTAMP),Future}
 + rewardGold: Money{NotNull} 
 + rewardSilver: Money{NotNull} 
 + rewardBromze: Money{NotNull} 
 </panel_attributes>
-</element>
+    <additional_attributes/>
+  </element>
 </diagram>

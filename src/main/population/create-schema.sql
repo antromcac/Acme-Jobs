@@ -34,6 +34,7 @@
        `id` integer not null,
         `version` integer not null,
         `deadline` datetime(6),
+        `description` varchar(255),
         `reward_bronze_amount` double precision,
         `reward_bronze_currency` varchar(255),
         `reward_gold_amount` double precision,

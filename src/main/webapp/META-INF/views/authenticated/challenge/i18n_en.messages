@@ -16,6 +16,7 @@ authenticated.challenge.list.label.rewardGold = Gold Reward
 #CHALLENGE FORM
 
 authenticated.challenge.form.label.rewardGold = Gold Reward
+authenticated.challenge.form.label.description = Description
 authenticated.challenge.form.label.rewardSilver = Silver Reward
 authenticated.challenge.form.label.rewardBronze = Bronze Reward
 authenticated.challenge.form.label.title = Title

@@ -16,6 +16,7 @@ authenticated.challenge.list.label.rewardGold = Recompensa de oro
 #CHALLENGE FORM
 
 authenticated.challenge.form.label.rewardGold = Recompensa de oro
+authenticated.challenge.form.label.description = Descripcion
 authenticated.challenge.form.label.rewardSilver = Recompensa de plata
 authenticated.challenge.form.label.rewardBronze = Recompensa de bronce
 authenticated.challenge.form.label.title = Titulo

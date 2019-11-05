@@ -30,6 +30,9 @@ public class Challenge extends DomainEntity {
 	@NotBlank
 	private String				title;
 
+	@NotBlank
+	private String				description;
+
 	@Temporal(TemporalType.TIMESTAMP)
 	@Future
 	private Date				deadline;
