@@ -30,6 +30,11 @@ master.menu.sign-out = Salir
 
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.favourite.antonioV = Enlace de Antonio
+master.menu.anonymous.favourite.antonioR = Enlace de Antonio Romero
+master.menu.anonymous.favourite.pablo = Enlace de Pablo
+master.menu.anonymous.favourite-link-ggp = Enlace de Gabriel
+master.menu.anonymous.favourite.thibaut = Enlace de Thibaut
 
 # master.menu.authenticated #######################################################
 master.menu.authenticated = Autenticado
