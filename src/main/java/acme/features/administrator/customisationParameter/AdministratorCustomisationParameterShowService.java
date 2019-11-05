@@ -1,7 +1,8 @@
 
 package acme.features.administrator.customisationParameter;
 
-import java.util.Collection;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -10,18 +11,16 @@ import acme.entities.customisationParameters.CustomisationParameter;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Administrator;
-import acme.framework.services.AbstractListService;
+import acme.framework.services.AbstractShowService;
 
 @Service
-public class AuthenticatedCustomisationParameterListService implements AbstractListService<Administrator, CustomisationParameter> {
+public class AdministratorCustomisationParameterShowService implements AbstractShowService<Administrator, CustomisationParameter> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	AuthenticatedCustomisationParameterRepository repository;
+	AdministratorCustomisationParameterRepository repository;
 
-
-	// AbstractListService<Administrator, Shout> interface --------------------
 
 	@Override
 	public boolean authorise(final Request<CustomisationParameter> request) {
@@ -36,16 +35,16 @@ public class AuthenticatedCustomisationParameterListService implements AbstractL
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "threshold");
+		request.unbind(entity, model, "spamWordsEn", "spamWordsEs", "threshold");
 	}
 
 	@Override
-	public Collection<CustomisationParameter> findMany(final Request<CustomisationParameter> request) {
+	public CustomisationParameter findOne(final Request<CustomisationParameter> request) {
 		assert request != null;
 
-		Collection<CustomisationParameter> result;
+		List<CustomisationParameter> lista = new ArrayList<CustomisationParameter>(this.repository.findManyAll());
 
-		result = this.repository.findManyAll();
+		CustomisationParameter result = lista.get(0);
 
 		return result;
 	}

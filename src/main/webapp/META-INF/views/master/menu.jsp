@@ -31,10 +31,6 @@
 			<acme:menu-suboption code="master.menu.anonymous.announcement.list" action="/anonymous/announcement/list"/>
 		</acme:menu-option>
 		
-		<acme:menu-option code="master.menu.administrator.customisation" access="hasRole('Administrator')" >
-			<acme:menu-suboption code="master.menu.administrator.customisation-parameter" action="/administrator/customisation-parameter/list"/>
-		</acme:menu-option>
-		
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
 		</acme:menu-option>
@@ -42,6 +38,7 @@
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.customisation-parameter" action="/administrator/customisation-parameter/show"/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>
 

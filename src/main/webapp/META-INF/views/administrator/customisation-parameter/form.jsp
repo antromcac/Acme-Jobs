@@ -15,7 +15,10 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<acme:list>
-	<acme:list-column code="administrator.customisation-parameter.list.label.spamWords" path="spamWords" width="40%"/>
-	<acme:list-column code="administrator.customisation-parameter.list.label.threshold" path="threshold" width="20%"/>
-</acme:list>
+<acme:form readonly="true">
+	<acme:form-textbox code="administrator.customisation-parameter.form.label.spamWordsEn" path="spamWordsEn"/>
+	<acme:form-textbox code="administrator.customisation-parameter.form.label.spamWordsEs" path="spamWordsEs"/>
+	<acme:form-double code="administrator.customisation-parameter.form.label.threshold" path="threshold"/>
+	
+	<acme:form-return code="administrator.customisation-parameter.form.button.return"/>
+</acme:form>

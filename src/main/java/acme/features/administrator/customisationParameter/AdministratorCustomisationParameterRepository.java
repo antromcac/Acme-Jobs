@@ -10,7 +10,7 @@ import acme.entities.customisationParameters.CustomisationParameter;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AuthenticatedCustomisationParameterRepository extends AbstractRepository {
+public interface AdministratorCustomisationParameterRepository extends AbstractRepository {
 
 	@Query("select c from CustomisationParameter c")
 	Collection<CustomisationParameter> findManyAll();

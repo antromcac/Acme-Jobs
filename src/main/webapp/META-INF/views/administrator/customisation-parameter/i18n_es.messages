@@ -8,7 +8,10 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-#SPAM LIST
-administrator.customisation-parameter.list.label.spamWords = Palabras no deseadas
-administrator.customisation-parameter.list.label.threshold =Limite
+#Customisation SHOW
 
+administrator.customisation-parameter.form.label.spamWordsEn = Palabras spam Ingles
+administrator.customisation-parameter.form.label.spamWordsEs = Palabras spam Español
+administrator.customisation-parameter.form.label.threshold = Limite de spam
+
+administrator.customisation-parameter.form.button.return = Volver

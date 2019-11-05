@@ -31,7 +31,10 @@ public class CustomisationParameter extends DomainEntity {
 	// Attributes -------------------------------------------------------------
 
 	@NotNull
-	private String				spamWords;
+	private String				spamWordsEn;
+
+	@NotNull
+	private String				spamWordsEs;
 
 	@NotNull
 	private Double				threshold;

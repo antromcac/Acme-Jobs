@@ -14,19 +14,19 @@ import acme.framework.entities.Administrator;
 
 @Controller
 @RequestMapping("/administrator/customisation-parameter/")
-public class AuthenticatedCustomisationParameterController extends AbstractController<Administrator, CustomisationParameter> {
+public class AdministratorCustomisationParameterController extends AbstractController<Administrator, CustomisationParameter> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	private AuthenticatedCustomisationParameterListService listService;
+	private AdministratorCustomisationParameterShowService showService;
 
 
 	// Constructors -----------------------------------------------------------
 
 	@PostConstruct
 	private void initialise() {
-		super.addBasicCommand(BasicCommand.LIST, this.listService);
+		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 
 	}
 }
