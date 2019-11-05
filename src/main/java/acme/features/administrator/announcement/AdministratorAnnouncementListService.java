@@ -1,9 +1,7 @@
 
-package acme.features.authenticated.announcement;
+package acme.features.administrator.announcement;
 
-import java.util.Calendar;
 import java.util.Collection;
-import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,16 +9,16 @@ import org.springframework.stereotype.Service;
 import acme.entities.announcements.Announcement;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
-import acme.framework.entities.Authenticated;
+import acme.framework.entities.Administrator;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AuthenticatedAnnouncementListService implements AbstractListService<Authenticated, Announcement> {
+public class AdministratorAnnouncementListService implements AbstractListService<Administrator, Announcement> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	AuthenticatedAnnouncementRepository repository;
+	AdministratorAnnouncementRepository repository;
 
 
 	// AbstractListService<Administrator, Shout> interface --------------------
@@ -47,12 +45,7 @@ public class AuthenticatedAnnouncementListService implements AbstractListService
 
 		Collection<Announcement> result;
 
-		Date fecha = new Date();
-		Calendar c = Calendar.getInstance();
-		c.setTime(fecha);
-		c.add(Calendar.MONTH, -1);
-
-		result = this.repository.findByDate(c.getTime());
+		result = this.repository.findManyAll();
 
 		return result;
 	}

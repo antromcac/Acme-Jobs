@@ -19,9 +19,13 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 	
-		<acme:menu-option code="master.menu.authenticated.announcement" access="isAuthenticated()" >
+    <acme:menu-option code="master.menu.authenticated.announcement" access="!hasRole('Administrator')&&isAuthenticated()" >
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
 		</acme:menu-option>
+    
+	<acme:menu-option code="master.menu.administrator.announcement" access="hasRole('Administrator')" >
+			<acme:menu-suboption code="master.menu.administrator.announcement.list" action="/administrator/announcement/list"/>
+		</acme:menu-option>	
 		
 		<acme:menu-option code="master.menu.authenticated.requests" access="isAuthenticated()" >
 			<acme:menu-suboption code="master.menu.authenticated.requests.list" action="/authenticated/requests/list"/>
@@ -89,5 +93,3 @@
 		<acme:menu-option code="master.menu.sign-out" action="/master/sign-out" access="isAuthenticated()"/>
 	</acme:menu-right>
 </acme:menu-bar>
-
-

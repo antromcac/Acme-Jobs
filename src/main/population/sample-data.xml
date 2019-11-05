@@ -17,9 +17,9 @@
 
 	<import resource="conversion-service.xml" />
 	
-	<bean id="announcement01" class="acme.entities.announcements.Announcement">
+<bean id="announcement01" class="acme.entities.announcements.Announcement">
 		<property name="title" value="Sample announcement 01" />
-		<property name="moment" value="2019/06/10 10:35" />
+		<property name="moment" value="2019/11/4 10:35" />
 		<property name="moreInfo"><null/></property>
 		<property name="text" value="This is the description of a sample announcement" />
 
@@ -178,6 +178,3 @@
 	</bean>
   
 </beans>
-
-
-

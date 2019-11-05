@@ -66,6 +66,9 @@ master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 
+master.menu.administrator.announcement = Announcements
+master.menu.administrator.announcement.list = Announcements lists
+
 # master.menu.provider ########################################################
 
 master.menu.provider = Provider
