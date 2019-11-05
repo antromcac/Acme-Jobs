@@ -3,7 +3,6 @@ package acme.features.anonymous.companyRecord;
 
 import java.util.Collection;
 import java.util.HashSet;
-import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -45,8 +44,7 @@ public class AnonymousCompanyRecordListFiveStarsService implements AbstractListS
 
 		Collection<CompanyRecord> result;
 
-		result = this.repository.findManyAll();
-		result = result.stream().filter(x -> x.getNumberStars() == 5).collect(Collectors.toList());
+		result = this.repository.findManyFiveStar();
 
 		Collection<CompanyRecord> res = new HashSet<>();
 
