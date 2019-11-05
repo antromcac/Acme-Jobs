@@ -301,8 +301,8 @@ has v</panel_attributes>
     <coordinates>
       <x>0</x>
       <y>520</y>
-      <w>231</w>
-      <h>91</h>
+      <w>224</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>InvestorRecord
 --
@@ -317,8 +317,8 @@ has v</panel_attributes>
     <coordinates>
       <x>272</x>
       <y>416</y>
-      <w>217</w>
-      <h>77</h>
+      <w>216</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>Announcement
 --
@@ -333,8 +333,8 @@ has v</panel_attributes>
     <coordinates>
       <x>216</x>
       <y>288</y>
-      <w>287</w>
-      <h>126</h>
+      <w>280</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>CompanyRecord
 --
@@ -392,8 +392,8 @@ has v</panel_attributes>
     <coordinates>
       <x>240</x>
       <y>520</y>
-      <w>295</w>
-      <h>115</h>
+      <w>288</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>Challenge
 --
@@ -405,5 +405,74 @@ has v</panel_attributes>
 + rewardBromze: Money{NotNull} 
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1088</x>
+      <y>368</y>
+      <w>152</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Banner&gt;&gt;
+NonCommercialBanner
+--
++ jingle: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>896</x>
+      <y>368</y>
+      <w>176</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Banner&gt;&gt;
+CommercialBanner
+--
++ creditCard: String {NotBlank}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1000</x>
+      <y>224</y>
+      <w>208</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Banner
+--
++ picture: String {NotBlank}
++ slogan: String {NotBlank}
++ targetUrl: String {NotBlank,URL}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>312</y>
+      <w>88</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1136</x>
+      <y>312</y>
+      <w>48</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;70.0</additional_attributes>
   </element>
 </diagram>
