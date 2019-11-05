@@ -10,7 +10,7 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #EFE4B0
+master.banner.background = #EFE4B0 
 
 ﻿# master.welcome ##############################################################
 
@@ -31,11 +31,45 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
 
+# master.menu.authenticated #######################################################
+master.menu.authenticated = Autenticado
+master.menu.authenticated.announcement = Anuncios
+master.menu.authenticated.announcement.list = Lista de anuncios
+
+master.menu.authenticated.requests = Solicitud
+master.menu.authenticated.requests.list = Lista de solicitud
+
+master.menu.authenticated.offer = Ofertas
+master.menu.authenticated.offer.list = Lista de ofertas
+
+master.menu.authenticated.challenge = Desafios
+master.menu.authenticated.challenge.list = Lista de desafios
+
+master.menu.authenticated.investor-record = Registros de inversores
+master.menu.authenticated.investor-record.list = Lista de registros de inversores
+
+master.menu.authenticated.company-record.list = Registros de la compañia
+
+
+
+# master.menu.anonymous #######################################################
+master.menu.anonymous.announcement = Anuncios
+master.menu.anonymous.announcement.list = Lista de anuncios
+
+master.menu.anonymous.investor-record = Registros de inversores
+master.menu.anonymous.investor-record.list = Lista de registros de inversores
+
+master.menu.anonymous.company-record.list = Registros de la compañia
+
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
+
+master.menu.administrator.announcement = Anuncios
+master.menu.administrator.announcement.list = Lista de anuncios
 
 # master.menu.provider ########################################################
 
@@ -72,7 +106,7 @@ master.footer.label.spanish = Español
 
 master.company.title = La compañía
 master.company.text = \
-	Starter Project, Inc. es una compañía fictícia que proporciona un proyecto \
+	Acme Jobs, Inc. es una compañía fictícia que proporciona un proyecto \
 	plantilla para los estudiantes de la asignatura Diseño y Pruebas, en el Grado \
 	en Ingeniería del Software de la Universidad de Sevilla.
 master.company.name = Acme Jobs, Inc.
@@ -91,4 +125,3 @@ master.license.text = \
 	durante un máximo de 31 días y "language" para almacenar sus preferencias de \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
-	
