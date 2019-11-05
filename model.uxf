@@ -331,12 +331,12 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>196</x>
-      <y>574</y>
+      <x>216</x>
+      <y>288</y>
       <w>287</w>
       <h>126</h>
     </coordinates>
-    <panel_attributes>companyRecord
+    <panel_attributes>CompanyRecord
 --
 + name: String {NotBlank}
 + sector: String {NotBlank}
@@ -347,7 +347,7 @@ has v</panel_attributes>
 + email: String {NotBlank,Email}
 + isIncorporated: Boolean
 + numberStars: Integer {NotNull, Range(min=0,max=5)}</panel_attributes>
- <additional_attributes/>
+    <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
