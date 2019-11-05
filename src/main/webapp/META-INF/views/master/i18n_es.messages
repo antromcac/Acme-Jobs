@@ -34,7 +34,7 @@ master.menu.anonymous.announcement.list = Lista de anuncios
 master.menu.anonymous.investor-record = Registros de inversores
 master.menu.anonymous.investor-record.list = Lista de registros de inversores
 master.menu.anonymous.company-record.list = Registros de la compañia
-master.menu.anonymous.company-record.five-stars = Mejor registro de la compañia
+master.menu.anonymous.company-record.five-stars = Mejores registros de la compañia
 
 # master.menu.authenticated #######################################################
 

@@ -27,7 +27,7 @@
 	</definition>
 	
 	<definition name="anonymous/company-record/five-stars" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/company-record/form.jsp" />
+		<put-attribute name="body" type="template" value="../anonymous/company-record/list.jsp" />
 	</definition>
 	
 </tiles-definitions>
