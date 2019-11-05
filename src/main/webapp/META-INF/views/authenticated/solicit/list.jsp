@@ -16,7 +16,7 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list>
-	<acme:list-column code="authenticated.requests.list.label.moment" path="moment" width="10%"/>
-	<acme:list-column code="authenticated.requests.list.label.deadline" path="deadline" width="10%"/>
-	<acme:list-column code="authenticated.requests.list.label.title" path="title" width="40%"/>
+	<acme:list-column code="authenticated.solicit.list.label.moment" path="moment" width="10%"/>
+	<acme:list-column code="authenticated.solicit.list.label.deadline" path="deadline" width="10%"/>
+	<acme:list-column code="authenticated.solicit.list.label.title" path="title" width="40%"/>
 </acme:list>

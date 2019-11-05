@@ -40,7 +40,7 @@ master.menu.anonymous.company-record.list = Registros de la compañia
 master.menu.authenticated = Autenticado
 
 master.menu.authenticated.announcement.list = Lista de anuncios
-master.menu.authenticated.requests.list = Lista de solicitud
+master.menu.authenticated.solicit.list = Lista de solicitud
 master.menu.authenticated.offer.list = Lista de ofertas
 master.menu.authenticated.challenge.list = Lista de desafios
 master.menu.authenticated.investor-record.list = Lista de registros de inversores
