@@ -19,8 +19,9 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 	
-		<acme:menu-option code="master.menu.authenticated.announcement" access="isAuthenticated()" >
+		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()" >
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.company-record.list" action="/authenticated/company-record/list"/>
 		</acme:menu-option>
 		
 		
