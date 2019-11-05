@@ -299,10 +299,28 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>232</x>
-      <y>512</y>
-      <w>248</w>
-      <h>88</h>
+
+      <x>259</x>
+      <y>378</y>
+      <w>231</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>InvestorRecord
+--
++name: String{NotBlank}
++sector: String{NotBlank}
++invStatement: String{NotBlank}
++stars: Integer{Range[0-5]}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>203</x>
+      <y>287</y>
+      <w>217</w>
+      <h>77</h>
+
     </coordinates>
     <panel_attributes>Announcement
 --

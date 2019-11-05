@@ -45,9 +45,15 @@ master.menu.authenticated.offer.list = Offers lists
 master.menu.authenticated.challenge = Challenges
 master.menu.authenticated.challenge.list = Challenges list
 
+master.menu.authenticated.investor-record = Investors records
+master.menu.authenticated.investor-record.list = Investors records lists
+
 # master.menu.anonymous #######################################################
 master.menu.anonymous.announcement = Announcements
 master.menu.anonymous.announcement.list = Announcements lists
+
+master.menu.anonymous.investor-record = Investors records
+master.menu.anonymous.investor-record.list = Investors records lists
 
 # master.menu.administrator ###################################################
 
@@ -109,3 +115,4 @@ master.license.text = \
 	automatically for a maximum of 31 days, and "language" to store your language \
 	preferences. Additionally, we store an item called "returnStack" in your browser's \
 	local storage to keep track of the document to which some buttons must return.
+

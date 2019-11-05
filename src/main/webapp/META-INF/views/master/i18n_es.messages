@@ -45,10 +45,17 @@ master.menu.authenticated.offer.list = Lista de ofertas
 master.menu.authenticated.challenge = Desafios
 master.menu.authenticated.challenge.list = Lista de desafios
 
+master.menu.authenticated.investor-record = Registros de inversores
+master.menu.authenticated.investor-record.list = Lista de registros de inversores
+
+
 
 # master.menu.anonymous #######################################################
 master.menu.anonymous.announcement = Anuncios
 master.menu.anonymous.announcement.list = Lista de anuncios
+
+master.menu.anonymous.investor-record = Registros de inversores
+master.menu.anonymous.investor-record.list = Lista de registros de inversores
 
 
 # master.menu.administrator ###################################################
@@ -111,5 +118,4 @@ master.license.text = \
 	durante un máximo de 31 días y "language" para almacenar sus preferencias de \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
-	
 
