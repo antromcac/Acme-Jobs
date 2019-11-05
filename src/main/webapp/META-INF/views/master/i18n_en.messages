@@ -42,6 +42,9 @@ master.menu.authenticated.requests.list = Requests lists
 master.menu.authenticated.offer = Offers
 master.menu.authenticated.offer.list = Offers lists
 
+master.menu.authenticated.challenge = Challenges
+master.menu.authenticated.challenge.list = Challenges list
+
 # master.menu.anonymous #######################################################
 master.menu.anonymous.announcement = Announcements
 master.menu.anonymous.announcement.list = Announcements lists

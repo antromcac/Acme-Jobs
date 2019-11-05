@@ -42,6 +42,9 @@ master.menu.authenticated.requests.list = Lista de solicitud
 master.menu.authenticated.offer = Ofertas
 master.menu.authenticated.offer.list = Lista de ofertas
 
+master.menu.authenticated.challenge = Desafios
+master.menu.authenticated.challenge.list = Lista de desafios
+
 
 # master.menu.anonymous #######################################################
 master.menu.anonymous.announcement = Anuncios
@@ -109,3 +112,4 @@ master.license.text = \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
 	
+

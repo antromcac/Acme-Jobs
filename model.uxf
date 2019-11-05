@@ -315,6 +315,7 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+
       <x>544</x>
       <y>552</y>
       <w>280</w>
@@ -348,6 +349,22 @@ has v</panel_attributes>
 + text: String {NotBlank}
 + reward: Money {NotNull, Valid}
 + ticker: String {NotBlank, Unique, Pattern}</panel_attributes>
+
     <additional_attributes/>
   </element>
+ <element>
+  <x>539</x>
+      <y>448</y>
+      <w>231</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Challenge
+--
++ title: String{NotBlank}
++ deadline: Date{Temporal(TIMESTAMP),Future}
++ rewardGold: Money{NotNull} 
++ rewardSilver: Money{NotNull} 
++ rewardBromze: Money{NotNull} 
+</panel_attributes>
+</element>
 </diagram>
