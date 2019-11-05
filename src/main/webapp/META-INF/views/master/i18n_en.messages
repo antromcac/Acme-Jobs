@@ -29,41 +29,21 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-master.menu.anonymous.favourite-link = Favourite link
-master.menu.anonymous.favourite.antonioV = Antonio's link
-master.menu.anonymous.favourite.antonioR = Antonio´s Romero link
-master.menu.anonymous.favourite.pablo = Pablo's link
-master.menu.anonymous.favourite-link-ggp = Gabriel's link
-master.menu.anonymous.favourite.thibaut = Thibaut's link
+
+master.menu.anonymous.announcement.list = Announcements lists
+master.menu.anonymous.investor-record.list = Investors records lists
+master.menu.anonymous.company-record.list = Company Records
 
 # master.menu.authenticated #######################################################
 
 master.menu.authenticated = Authenticated
-master.menu.authenticated.announcement = Announcements
+
 master.menu.authenticated.announcement.list = Announcements lists
-
-master.menu.authenticated.requests = Requests
 master.menu.authenticated.requests.list = Requests lists
-
-master.menu.authenticated.offer = Offers
 master.menu.authenticated.offer.list = Offers lists
-
-master.menu.authenticated.challenge = Challenges
 master.menu.authenticated.challenge.list = Challenges list
-
-master.menu.authenticated.investor-record = Investors records
 master.menu.authenticated.investor-record.list = Investors records lists
-
 master.menu.authenticated.company-record.list = Company Records
-
-# master.menu.anonymous #######################################################
-master.menu.anonymous.announcement = Announcements
-master.menu.anonymous.announcement.list = Announcements lists
-
-master.menu.anonymous.investor-record = Investors records
-master.menu.anonymous.investor-record.list = Investors records lists
-
-master.menu.anonymous.company-record.list = Company Records
 
 # master.menu.administrator ###################################################
 

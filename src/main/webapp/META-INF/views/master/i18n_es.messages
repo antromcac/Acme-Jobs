@@ -29,43 +29,22 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.favourite-link = Enlace favorito
-master.menu.anonymous.favourite.antonioV = Enlace de Antonio
-master.menu.anonymous.favourite.antonioR = Enlace de Antonio Romero
-master.menu.anonymous.favourite.pablo = Enlace de Pablo
-master.menu.anonymous.favourite-link-ggp = Enlace de Gabriel
-master.menu.anonymous.favourite.thibaut = Enlace de Thibaut
 
-# master.menu.authenticated #######################################################
-master.menu.authenticated = Autenticado
-master.menu.authenticated.announcement = Anuncios
-master.menu.authenticated.announcement.list = Lista de anuncios
-
-master.menu.authenticated.requests = Solicitud
-master.menu.authenticated.requests.list = Lista de solicitud
-
-master.menu.authenticated.offer = Ofertas
-master.menu.authenticated.offer.list = Lista de ofertas
-
-master.menu.authenticated.challenge = Desafios
-master.menu.authenticated.challenge.list = Lista de desafios
-
-master.menu.authenticated.investor-record = Registros de inversores
-master.menu.authenticated.investor-record.list = Lista de registros de inversores
-
-master.menu.authenticated.company-record.list = Registros de la compañia
-
-
-
-# master.menu.anonymous #######################################################
-master.menu.anonymous.announcement = Anuncios
 master.menu.anonymous.announcement.list = Lista de anuncios
-
 master.menu.anonymous.investor-record = Registros de inversores
 master.menu.anonymous.investor-record.list = Lista de registros de inversores
-
 master.menu.anonymous.company-record.list = Registros de la compañia
 
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated = Autenticado
+
+master.menu.authenticated.announcement.list = Lista de anuncios
+master.menu.authenticated.requests.list = Lista de solicitud
+master.menu.authenticated.offer.list = Lista de ofertas
+master.menu.authenticated.challenge.list = Lista de desafios
+master.menu.authenticated.investor-record.list = Lista de registros de inversores
+master.menu.authenticated.company-record.list = Registros de la compañia
 
 # master.menu.administrator ###################################################
 
@@ -103,7 +82,7 @@ master.footer.label.license = Licencia
 master.footer.title.social = Social
 master.footer.label.linked-in = Linked-In
 master.footer.label.twitter = Twitter
-master.footer.title.languages = Lenguages
+master.footer.title.languages = Idioma
 master.footer.label.english = Inglés
 master.footer.label.spanish = Español
 
