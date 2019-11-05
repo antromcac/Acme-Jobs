@@ -19,20 +19,42 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 	
+		<acme:menu-option code="master.menu.authenticated.announcement" access="isAuthenticated()" >
+			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.authenticated.requests" access="isAuthenticated()" >
+			<acme:menu-suboption code="master.menu.authenticated.requests.list" action="/authenticated/requests/list"/>
+    </acme:menu-option>
+    
+    <acme:menu-option code="master.menu.authenticated.challenge" access="isAuthenticated()" >
+			<acme:menu-suboption code="master.menu.authenticated.challenge.list" action="/authenticated/challenge/list"/>
+		</acme:menu-option>
+    
+		<acme:menu-option code="master.menu.authenticated.offer" access="isAuthenticated()" >
+		<acme:menu-suboption code="master.menu.authenticated.offer.list" action="/authenticated/offer/list"/>
+    </acme:menu-option>
+		
+		<acme:menu-option code="master.menu.anonymous.announcement" access="isAnonymous()" >
+			<acme:menu-suboption code="master.menu.anonymous.announcement.list" action="/anonymous/announcement/list"/>
+		</acme:menu-option>
+    
+    <acme:menu-option code="master.menu.authenticated.investor-record" access="isAuthenticated()" >
+			<acme:menu-suboption code="master.menu.authenticated.investor-record.list" action="/authenticated/investor-record/list"/>
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.anonymous.investor-record" access="isAnonymous()" >
+			<acme:menu-suboption code="master.menu.anonymous.investor-record.list" action="/anonymous/investor-record/list"/>
+		</acme:menu-option>
+		
 		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()" >
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.company-record.list" action="/authenticated/company-record/list"/>
 		</acme:menu-option>
 		
-		
-		<acme:menu-option code="master.menu.anonymous.announcement" access="isAnonymous()" >
-			<acme:menu-suboption code="master.menu.anonymous.announcement.list" action="/anonymous/announcement/list"/>
-		</acme:menu-option>
-		
-			
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
-			<acme:menu-suboption code="master.menu.anonymous.company-record.list" action="/anonymous/company-record/list"/>
+      <acme:menu-suboption code="master.menu.anonymous.company-record.list" action="/anonymous/company-record/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
@@ -67,4 +89,5 @@
 		<acme:menu-option code="master.menu.sign-out" action="/master/sign-out" access="isAuthenticated()"/>
 	</acme:menu-right>
 </acme:menu-bar>
+
 
