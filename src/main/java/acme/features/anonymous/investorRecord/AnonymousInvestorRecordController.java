@@ -26,7 +26,7 @@ public class AnonymousInvestorRecordController extends AbstractController<Anonym
 	private AnonymousInvestorRecordShowService			showService;
 
 	@Autowired
-	private AnonymousInvestorRecordShowFiveStarsService	fiveStarService;
+	private AnonymousInvestorRecordListFiveStarsService	fiveStarService;
 
 
 	// Constructors -----------------------------------------------------------
@@ -36,6 +36,6 @@ public class AnonymousInvestorRecordController extends AbstractController<Anonym
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
 		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 
-		super.addCustomCommand(CustomCommand.FIVE_STARS, BasicCommand.SHOW, this.fiveStarService);
+		super.addCustomCommand(CustomCommand.FIVE_STARS, BasicCommand.LIST, this.fiveStarService);
 	}
 }

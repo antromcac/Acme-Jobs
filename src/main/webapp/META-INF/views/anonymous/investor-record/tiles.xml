@@ -27,6 +27,6 @@
 	</definition>
 	
 	<definition name="anonymous/investor-record/five-stars" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/investor-record/form.jsp" />
+		<put-attribute name="body" type="template" value="../anonymous/investor-record/list.jsp" />
 	</definition>
 </tiles-definitions>
