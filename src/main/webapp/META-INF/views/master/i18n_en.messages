@@ -48,12 +48,16 @@ master.menu.authenticated.challenge.list = Challenges list
 master.menu.authenticated.investor-record = Investors records
 master.menu.authenticated.investor-record.list = Investors records lists
 
+master.menu.authenticated.company-record.list = Company Records
+
 # master.menu.anonymous #######################################################
 master.menu.anonymous.announcement = Announcements
 master.menu.anonymous.announcement.list = Announcements lists
 
 master.menu.anonymous.investor-record = Investors records
 master.menu.anonymous.investor-record.list = Investors records lists
+
+master.menu.anonymous.company-record.list = Company Records
 
 # master.menu.administrator ###################################################
 
