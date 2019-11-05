@@ -19,14 +19,17 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 	
-		<acme:menu-option code="master.menu.authenticated.announcement" access="isAuthenticated()" >
+		<acme:menu-option code="master.menu.authenticated.announcement" access="!hasRole('Administrator')&&isAuthenticated()" >
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.anonymous.announcement" access="isAnonymous()" >
 			<acme:menu-suboption code="master.menu.anonymous.announcement.list" action="/anonymous/announcement/list"/>
 		</acme:menu-option>
-		
+
+		<acme:menu-option code="master.menu.administrator.announcement" access="hasRole('Administrator')" >
+			<acme:menu-suboption code="master.menu.administrator.announcement.list" action="/administrator/announcement/list"/>
+		</acme:menu-option>		
 		
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>

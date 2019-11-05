@@ -47,6 +47,9 @@ master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 
+master.menu.administrator.announcement = Anuncios
+master.menu.administrator.announcement.list = Lista de anuncios
+
 # master.menu.provider ########################################################
 
 master.menu.provider = Proveedor

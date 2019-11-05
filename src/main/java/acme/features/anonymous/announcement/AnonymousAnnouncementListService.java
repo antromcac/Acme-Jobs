@@ -1,7 +1,9 @@
 
 package acme.features.anonymous.announcement;
 
+import java.util.Calendar;
 import java.util.Collection;
+import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -45,7 +47,12 @@ public class AnonymousAnnouncementListService implements AbstractListService<Ano
 
 		Collection<Announcement> result;
 
-		result = this.repository.findManyAll();
+		Date fecha = new Date();
+		Calendar c = Calendar.getInstance();
+		c.setTime(fecha);
+		c.add(Calendar.MONTH, -1);
+
+		result = this.repository.findByDate(c.getTime());
 
 		return result;
 	}
