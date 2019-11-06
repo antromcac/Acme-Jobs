@@ -45,6 +45,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+
     create table `company_record` (
        `id` integer not null,
         `version` integer not null,
@@ -60,6 +61,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
@@ -69,6 +71,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+
     create table `customisation_parameter` (
        `id` integer not null,
         `version` integer not null,
@@ -77,6 +80,7 @@
         `threshold` double precision,
         primary key (`id`)
     ) engine=InnoDB;
+
 
     create table `investor_record` (
        `id` integer not null,
@@ -113,7 +117,9 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+
     create table `solicit` (
+
        `id` integer not null,
         `version` integer not null,
         `deadline` datetime(6),
@@ -147,8 +153,10 @@
     alter table `offer` 
        add constraint UK_iex7e8fs0fh89yxpcnm1orjkm unique (`ticker`);
 
+
     alter table `solicit` 
        add constraint UK_4pjhg5dc8xt94p4gw8htonw1s unique (`ticker`);
+
 
     alter table `user_account` 
        add constraint UK_castjbvpeeus0r8lbpehiu0e4 unique (`username`);

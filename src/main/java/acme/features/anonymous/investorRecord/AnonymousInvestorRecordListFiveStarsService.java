@@ -13,7 +13,7 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousInvestorRecordListService implements AbstractListService<Anonymous, InvestorRecord> {
+public class AnonymousInvestorRecordListFiveStarsService implements AbstractListService<Anonymous, InvestorRecord> {
 
 	// Internal state ---------------------------------------------------------
 
@@ -43,7 +43,7 @@ public class AnonymousInvestorRecordListService implements AbstractListService<A
 
 		Collection<InvestorRecord> result;
 
-		result = this.repository.findManyAll();
+		result = this.repository.findManyAllFiveStars();
 
 		return result;
 	}
