@@ -27,11 +27,11 @@
 
     drop table if exists `authenticated`;
 
+    drop table if exists `banner`;
+
     drop table if exists `challenge`;
 
-
-    drop table if exists `consumer`;
-
+    drop table if exists `commercial_banner`;
 
     drop table if exists `company_record`;
 
@@ -39,16 +39,15 @@
 
     drop table if exists `customisation_parameter`;
 
-
     drop table if exists `investor_record`;
+
+    drop table if exists `non_commercial_banner`;
 
     drop table if exists `offer`;
 
     drop table if exists `provider`;
 
-
     drop table if exists `solicit`;
-
 
     drop table if exists `user_account`;
 
