@@ -55,19 +55,15 @@ master.menu.authenticated.investor-record.list = Lista de registros de inversore
 master.menu.authenticated.company-record.list = Registros de la compañia
 
 
-
-
-
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 
-master.menu.administrator.announcement = Anuncios
 master.menu.administrator.announcement.list = Lista de anuncios
-
 master.menu.administrator.customisation-parameter = Parametros de customizacion
+master.menu.administrator.dashboard.show = Mostrar Tablon de datos
 
 # master.menu.provider ########################################################
 

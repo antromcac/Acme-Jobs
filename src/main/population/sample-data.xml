@@ -17,7 +17,9 @@
 
 	<import resource="conversion-service.xml" />
 	
-<bean id="announcement01" class="acme.entities.announcements.Announcement">
+	<!-- Announcement -->
+	
+	<bean id="announcement01" class="acme.entities.announcements.Announcement">
 		<property name="title" value="Sample announcement 01" />
 		<property name="moment" value="2019/11/4 10:35" />
 		<property name="moreInfo"><null/></property>
@@ -40,6 +42,8 @@
 		<property name="text" value="This is a very old announcement" />
 
 	</bean>
+	
+	<!-- Solicit -->
 	
 	<bean id="Solicit01" class="acme.entities.solicits.Solicit">
 		<property name="title" value="Request 01"/>
@@ -68,7 +72,8 @@
 		<property name="ticker" value="REBCD-62345"/>
 	</bean>
 
-                         <!--Offer -->  
+	<!--Offer -->  
+	
 	<bean id="offer01" class="acme.entities.offers.Offer">
 		<property name="title" value=" Offer 1" />
 		<property name="moment" value="1900/06/10 19:10" />
@@ -88,7 +93,10 @@
 		<property name="text" value="This is a offer's text"/>
 		<property name="ticker" value="OFGHI-67891" />
 	</bean>
-		<bean id="challenge01" class="acme.entities.challenges.Challenge">
+	
+	<!-- Challenge -->
+	
+	<bean id="challenge01" class="acme.entities.challenges.Challenge">
 		<property name="title" value="Challenge 01" />
 		<property name="description" value="Description 01" />
 		<property name="deadline" value="2029/06/10 19:10" />
@@ -97,7 +105,8 @@
 		<property name="rewardBronze" value="500€"/>
 	
 	</bean>
-		<bean id="challenge02" class="acme.entities.challenges.Challenge">
+	
+	<bean id="challenge02" class="acme.entities.challenges.Challenge">
 		<property name="title" value="Challenge 02" />
 		<property name="description" value="Description 02" />
 		<property name="deadline" value="2021/06/10 19:10" />
@@ -106,7 +115,8 @@
 		<property name="rewardBronze" value="1000€"/>
 	
 	</bean>
-		<bean id="challenge03" class="acme.entities.challenges.Challenge">
+	
+	<bean id="challenge03" class="acme.entities.challenges.Challenge">
 		<property name="title" value="Challenge 03" />
 		<property name="description" value="Description 03" />
 		<property name="deadline" value="2025/06/10 19:10" />
@@ -115,6 +125,8 @@
 		<property name="rewardBronze" value="100€"/>
 	
 	</bean>
+	
+	<!-- Investor Record -->
   
   	<bean id="invRecord01" class="acme.entities.investorRecords.InvestorRecord">
 		<property name="name" value="Ozimandias" />
@@ -139,8 +151,10 @@
 		<property name="stars"><null/></property>
 
 	</bean>
+	
+	<!-- Company Record -->
   
-  <bean id="companyRecord01" class="acme.entities.companyRecords.CompanyRecord">
+  	<bean id="companyRecord01" class="acme.entities.companyRecords.CompanyRecord">
 		<property name="name" value="Solutia"/>
 		<property name="sector" value="Sector 1"/>
 		<property name="ceo" value="CEO 1"/>
@@ -165,7 +179,7 @@
 		<property name="numberStars" value="2"/>
 	</bean>
   
-  <bean id="companyRecord03" class="acme.entities.companyRecords.CompanyRecord">
+  	<bean id="companyRecord03" class="acme.entities.companyRecords.CompanyRecord">
 		<property name="name" value="Acme-Jobs"/>
 		<property name="sector" value="Sector 3"/>
 		<property name="ceo" value="CEO 3"/>
@@ -176,5 +190,5 @@
 		<property name="isIncorporated" value="false" />
 		<property name="numberStars" value="5"/>
 	</bean>
-  
+	
 </beans>
