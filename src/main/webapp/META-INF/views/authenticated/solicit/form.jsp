@@ -15,8 +15,13 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<acme:list>
-	<acme:list-column code="authenticated.requests.list.label.moment" path="moment" width="10%"/>
-	<acme:list-column code="authenticated.requests.list.label.deadline" path="deadline" width="10%"/>
-	<acme:list-column code="authenticated.requests.list.label.title" path="title" width="40%"/>
-</acme:list>
+<acme:form readonly="true">
+	<acme:form-textbox code="authenticated.solicit.form.label.ticker" path="ticker"/>
+	<acme:form-textbox code="authenticated.solicit.form.label.title" path="title"/>
+	<acme:form-moment code="authenticated.solicit.form.label.moment" path="moment"/>
+	<acme:form-moment code="authenticated.solicit.form.label.deadline" path="deadline"/>
+	<acme:form-textarea code="authenticated.solicit.form.label.text" path="text"/>
+	<acme:form-url code="authenticated.solicit.form.label.reward" path="reward"/>
+	
+	<acme:form-return code="authenticated.solicit.form.button.return"/>
+</acme:form>

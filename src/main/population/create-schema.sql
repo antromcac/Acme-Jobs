@@ -45,6 +45,23 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+
+    create table `company_record` (
+       `id` integer not null,
+        `version` integer not null,
+        `ceo` varchar(255),
+        `description` varchar(255),
+        `email` varchar(255),
+        `is_incorporated` bit,
+        `name` varchar(255),
+        `number_stars` integer,
+        `phone` varchar(255),
+        `sector` varchar(255),
+        `web_site` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
@@ -53,6 +70,17 @@
         `sector` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
+
+
+    create table `customisation_parameter` (
+       `id` integer not null,
+        `version` integer not null,
+        `spam_words_en` varchar(255),
+        `spam_words_es` varchar(255),
+        `threshold` double precision,
+        primary key (`id`)
+    ) engine=InnoDB;
+
 
     create table `investor_record` (
        `id` integer not null,
@@ -89,7 +117,9 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `requests` (
+
+    create table `solicit` (
+
        `id` integer not null,
         `version` integer not null,
         `deadline` datetime(6),
@@ -123,8 +153,10 @@
     alter table `offer` 
        add constraint UK_iex7e8fs0fh89yxpcnm1orjkm unique (`ticker`);
 
-    alter table `requests` 
-       add constraint UK_5v1h0kdr8vcps4i9e55k5gnc8 unique (`ticker`);
+
+    alter table `solicit` 
+       add constraint UK_4pjhg5dc8xt94p4gw8htonw1s unique (`ticker`);
+
 
     alter table `user_account` 
        add constraint UK_castjbvpeeus0r8lbpehiu0e4 unique (`username`);

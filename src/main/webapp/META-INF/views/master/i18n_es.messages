@@ -10,14 +10,14 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #FFE97F 
+master.banner.background = #EFE4B0 
 
 ﻿# master.welcome ##############################################################
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
-	Bienvenidos a Acme Stater!  Nunca antes ha sido tan sencillo desarrollar un \
-	proyecto y hacerlo funcionar.
+	Bienvenidos a Acme Jobs! No volveras a preocuparte por tener que buscar sin\
+	exito trabajo o nuevos empleados. ¡Empieza a ganar dinero!
 
 # master.menu #################################################################
 
@@ -29,29 +29,13 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.favourite-link = Enlace favorito
 
-# master.menu.authenticated #######################################################
+master.menu.anonymous.announcement.list = Lista de anuncios
+master.menu.anonymous.investor-record = Registros de inversores
+master.menu.anonymous.investor-record.list = Lista de registros de inversores
+master.menu.anonymous.company-record.list = Registros de la compañia
+master.menu.anonymous.company-record.five-stars = Mejores registros de la compañia
 
-master.menu.authenticated.announcement = Anuncios
-master.menu.authenticated.announcement.list = Lista de anuncios
-
-master.menu.authenticated.requests = Solicitud
-master.menu.authenticated.requests.list = Lista de solicitud
-
-master.menu.authenticated.offer = Ofertas
-master.menu.authenticated.offer.list = Lista de ofertas
-
-master.menu.authenticated.challenge = Desafios
-master.menu.authenticated.challenge.list = Lista de desafios
-
-master.menu.authenticated.investor-record = Registros de inversores
-master.menu.authenticated.investor-record.list = Lista de registros de inversores
-
-
-
-
-# master.menu.anonymous #######################################################
 master.menu.anonymous.announcement = Anuncios
 master.menu.anonymous.announcement.list = Lista de anuncios
 
@@ -59,12 +43,31 @@ master.menu.anonymous.investor-record = Registros de inversores
 master.menu.anonymous.investor-record.list = Lista de registros de inversores
 master.menu.anonymous.investor-record.five-stars = Mejores registros de inversor
 
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated = Autenticado
+
+master.menu.authenticated.announcement.list = Lista de anuncios
+master.menu.authenticated.solicit.list = Lista de solicitud
+master.menu.authenticated.offer.list = Lista de ofertas
+master.menu.authenticated.challenge.list = Lista de desafios
+master.menu.authenticated.investor-record.list = Lista de registros de inversores
+master.menu.authenticated.company-record.list = Registros de la compañia
+
+
+
+
 
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
+
+master.menu.administrator.announcement = Anuncios
+master.menu.administrator.announcement.list = Lista de anuncios
+
+master.menu.administrator.customisation-parameter = Parametros de customizacion
 
 # master.menu.provider ########################################################
 
@@ -93,7 +96,7 @@ master.footer.label.license = Licencia
 master.footer.title.social = Social
 master.footer.label.linked-in = Linked-In
 master.footer.label.twitter = Twitter
-master.footer.title.languages = Lenguages
+master.footer.title.languages = Idioma
 master.footer.label.english = Inglés
 master.footer.label.spanish = Español
 
@@ -101,10 +104,10 @@ master.footer.label.spanish = Español
 
 master.company.title = La compañía
 master.company.text = \
-	Starter Project, Inc. es una compañía fictícia que proporciona un proyecto \
+	Acme Jobs, Inc. es una compañía fictícia que proporciona un proyecto \
 	plantilla para los estudiantes de la asignatura Diseño y Pruebas, en el Grado \
 	en Ingeniería del Software de la Universidad de Sevilla.
-master.company.name = Starter Project, Inc.
+master.company.name = Acme Jobs, Inc.
 master.company.address = Calle, número, Ciudad, Estado, País
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com
@@ -120,4 +123,3 @@ master.license.text = \
 	durante un máximo de 31 días y "language" para almacenar sus preferencias de \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
-

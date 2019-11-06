@@ -16,12 +16,9 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form readonly="true">
-	<acme:form-textbox code="authenticated.requests.form.label.ticker" path="ticker"/>
-	<acme:form-textbox code="authenticated.requests.form.label.title" path="title"/>
-	<acme:form-moment code="authenticated.requests.form.label.moment" path="moment"/>
-	<acme:form-moment code="authenticated.requests.form.label.deadline" path="deadline"/>
-	<acme:form-textarea code="authenticated.requests.form.label.text" path="text"/>
-	<acme:form-url code="authenticated.requests.form.label.reward" path="reward"/>
+	<acme:form-textbox code="administrator.customisation-parameter.form.label.spamWordsEn" path="spamWordsEn"/>
+	<acme:form-textbox code="administrator.customisation-parameter.form.label.spamWordsEs" path="spamWordsEs"/>
+	<acme:form-double code="administrator.customisation-parameter.form.label.threshold" path="threshold"/>
 	
-	<acme:form-return code="authenticated.requests.form.button.return"/>
+	<acme:form-return code="administrator.customisation-parameter.form.button.return"/>
 </acme:form>
