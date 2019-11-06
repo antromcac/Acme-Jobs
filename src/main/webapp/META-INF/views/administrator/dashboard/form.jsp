@@ -30,7 +30,9 @@
 	<acme:form-double code="administrator.dashboard.form.label.avgRewardsOffer" path="avgRewardsOffer"/>
 	<acme:form-double code="administrator.dashboard.form.label.stdRewardsOffer" path="stdRewardsOffer"/>
 	
-	
+	<h2>
+		<acme:message code="administrator.dashboard.form.label.chart.company" />
+	</h2>
 	
 	<div>
 		<canvas id="canvas1"></canvas>
@@ -72,6 +74,49 @@
 		});
 	</script>
 	
+	<h2>
+		<acme:message code="administrator.dashboard.form.label.chart.investor" />
+	</h2>
+	
+	<div>
+		<canvas id="canvas2"></canvas>
+	</div>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var data = {
+					labels : [
+						
+						<jstl:forEach var="item" items="${sectorNumberInvestorRecord}">
+							"<jstl:out value="${item[0]}"/>",
+						</jstl:forEach>
+					],
+					datasets : [
+						{
+							data : [
+							<jstl:forEach var="item" items="${sectorNumberInvestorRecord}">
+								"<jstl:out value="${item[1]}"/>",
+							</jstl:forEach>
+							]
+						}						
+					]
+			};
+			var options = {
+					legend : {
+						display : false
+					}
+			};
+			var canvas, context;
+			
+			canvas = document.getElementById("canvas2");
+			context = canvas.getContext("2d");
+			new Chart(context, {
+				type : "pie",
+				data : data,
+				options : options
+			});
+		});
+	</script>
 	
 	<acme:form-return code="administrator.dashboard.form.button.return"/>
 </acme:form>
