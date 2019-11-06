@@ -40,18 +40,17 @@
 		$(document).ready(function() {
 			var data = {
 					labels : [
-						""
-						<jstl:forEach var="par" items="${sectorNumberCompanyRecord}">
-							,<jstl:out value="${par[0]}"/>
+						
+						<jstl:forEach var="item" items="${sectorNumberCompanyRecord}">
+							"<jstl:out value="${item[0]}"/>",
 						</jstl:forEach>
 					],
 					datasets : [
 						{
 							data : [
-								0,
-								1,
-								3,
-								2
+							<jstl:forEach var="item" items="${sectorNumberCompanyRecord}">
+								"<jstl:out value="${item[1]}"/>",
+							</jstl:forEach>
 							]
 						}						
 					]
