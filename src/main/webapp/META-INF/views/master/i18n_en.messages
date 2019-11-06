@@ -33,6 +33,7 @@ master.menu.anonymous = Anonymous
 master.menu.anonymous.announcement.list = Announcements lists
 master.menu.anonymous.investor-record.list = Investors records lists
 master.menu.anonymous.company-record.list = Company Records
+master.menu.anonymous.company-record.five-stars = Best company records
 
 # master.menu.authenticated #######################################################
 
